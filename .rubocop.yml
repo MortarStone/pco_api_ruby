@@ -1,10 +1,11 @@
 AllCops:
+  TargetRubyVersion: 2.6
   NewCops: enable
 
-Style/SpaceAroundOperators:
+Layout/SpaceAroundOperators:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Exclude:
     - 'pco_api.gemspec'
   Max: 120
